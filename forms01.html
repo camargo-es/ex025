@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <style>
+        *{
+            font-family: 'Times New Roman', Times, serif;
+        }
+        h1{
+            background-color:rgb(67, 95, 54);
+            height: 50px;
+        }
+     
+    </style>
+</head>
+<body>
+    <h1>Primeiro Formulário</h1>
+    <form action="cadastro.php" method="post" autocomplete="off">
+        <p><label for="inome"></label>Nome:<input type="text" name="nome" id="inome"></p>
+        <p><label for="isobrenome">Sobrenome:</label><input type="text" name="sobrenome" id="isobrenome"></p>
+        <p><label for="iEmail">E-mail:</label><input type="email" name="email" id="Email"></p>
+        <p><label for="iTelefone">Telefome:</label><input type="tel" name="tel" id="Tel"></p>
+        <p><input type="submit" value="Enviar"></p>
+    </form>
+</body>
+</html>
